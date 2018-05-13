@@ -1,5 +1,8 @@
 # Add  code here!
 def prime?(num)
+  if num == 2
+    true
+  end
     if (num > 1)
       i = 2
       while i < num
